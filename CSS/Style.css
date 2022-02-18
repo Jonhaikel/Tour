@@ -1,0 +1,33 @@
+#Nav{
+    background-color: rgb(2, 53, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Acceso{   
+    margin-left: 1000px;
+    padding-right: 15px;
+}
+ul li { display: inline-block; zoom: 1; *display: inline;padding-left: 15px; color: white;}
+
+a{
+    text-decoration: none;
+    pointer-events: painted;
+    color: white;
+}
+h1{
+    font-size:2.5em;
+    text-align: center;
+    color:rgb(2, 53, 53);
+}
+.Fondo{
+    background: url("../Imagenes/Fondo.jpg");
+    background-size: cover;
+    height:620px;
+}
+aside{
+    align-items: center;
+    text-align: center;
+    color: rgba(2, 29, 37, 0.788);
+    font-size: 3em;
+}
